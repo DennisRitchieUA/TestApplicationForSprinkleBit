@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Favourites" representedClassName=".Favourites" syncable="YES">
+        <attribute name="backdrop_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="overview" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="release_year" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeOfAddition" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vote_average" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Genre" representedClassName=".Genre" syncable="YES">
+        <attribute name="genres_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo>
+            <entry key="relatedByAttribute" value="name"/>
+        </userInfo>
+    </entity>
+    <entity name="ShortMovie" representedClassName=".ShortMovie" syncable="YES">
+        <attribute name="backdrop_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="overview" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="release_year" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vote_average" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Genre" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="ShortMovie" positionX="106" positionY="-135" width="128" height="150"/>
+        <element name="Favourites" positionX="27" positionY="-54" width="128" height="165"/>
+    </elements>
+</model>

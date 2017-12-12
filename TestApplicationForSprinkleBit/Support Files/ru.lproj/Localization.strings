@@ -1,0 +1,56 @@
+/* 
+  Localization.strings
+  TestApplicationForSprinkleBit
+
+  Created by Dennis Ritchie on 12/10/17.
+  Copyright © 2017 Dennis Ritchie. All rights reserved.
+*/
+
+"ok_btn" = "Хорошо";
+"Unknow_error" = "Неизвестная ошибка";
+"warnint_message" = "Внимание";
+"cancel_btn" = "Отменить";
+
+// MainVC
+"main_vc_segmen_controll_first_item" = "Популярные";
+"main_vc_segmen_controll_second_item" = "Избранные";
+
+// FilterVC
+"FilterVC_title" = "Фильтр по жанрам";
+"done_btn" = "Готово";
+
+// NoDataView
+"no_data_text" = "Ничего не найдено";
+
+//UISortTypePickerView
+"filter_done_button" = "Готово";
+"filter_done_cancel" = "Отменить";
+"UISortTypePickerView_title" = "Сортировка";
+
+// SortType
+"SortType_byAdding" = "По добавлению в избранные";
+"SortType_byName" = "По имени";
+"SortType_byYearPublishing" = "По году публикации";
+"SortType_byRating" = "По рейтингу";
+
+
+//MovieDetailVC
+"movieDetailVC_overview" = "Описание:";
+"movieDetailVC_budget" = "Бюджет:";
+"movieDetailVC_genres" = "Жанры:";
+"movieDetailVC_production_companies" = "Кинокомпании:";
+"movieDetailVC_production_countries" = "Страны:";
+"movieDetailVC_release_date" = "Дата выпуска:";
+"movieDetailVC_revenue" = "Сборы:";
+"movieDetailVC_vote_average" = "Средняя оценка:";
+"movieDetailVC_vote_count" = "Количество голосов:";
+
+//FavoriteVC
+"FavoriteVC_remove_from_favourites" = "Вы действительно хотите удалить фильм из избранного?";
+"FavoriteVC_remove_from_favourites_yes" = "Подтвердить";
+
+//SearchVC
+"SearchVC_title" = "Поиск";
+"SearchVC_search_bar_placeholder" = "Найти фильм";
+
+

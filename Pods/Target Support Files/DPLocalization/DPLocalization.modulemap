@@ -1,0 +1,6 @@
+framework module DPLocalization {
+  umbrella header "DPLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

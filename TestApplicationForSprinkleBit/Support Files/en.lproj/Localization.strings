@@ -1,0 +1,56 @@
+/* 
+  Localization.strings
+  TestApplicationForSprinkleBit
+
+  Created by Dennis Ritchie on 12/10/17.
+  Copyright © 2017 Dennis Ritchie. All rights reserved.
+*/
+
+
+"ok_btn" = "Ok";
+"Unknow_error" = "Unknown error";
+"warnint_message" = "Warning";
+"cancel_btn" = "Cancel";
+
+// ListOfPopularVC
+"main_vc_segmen_controll_first_item" = "Popular";
+"main_vc_segmen_controll_second_item" = "Favorite";
+
+// FilterVC
+"FilterVC_title" = "Filter by genre";
+"done_btn" = "Done";
+
+// NoDataView
+"no_data_text" = "Nothing found";
+
+//UISortTypePickerView
+"filter_done_button" = "Done";
+"filter_done_cancel" = "Cancel";
+"UISortTypePickerView_title" = "Sorting";
+
+// SortType
+"SortType_byAdding" = "By adding";
+"SortType_byName" = "By name";
+"SortType_byYearPublishing" = "By year publishing";
+"SortType_byRating" = "By rating";
+
+//MovieDetailVC
+"movieDetailVC_overview" = "Overview";
+"movieDetailVC_budget" = "Budget:";
+"movieDetailVC_genres" = "Genres:";
+"movieDetailVC_production_companies" = "Production companies:";
+"movieDetailVC_production_countries" = "Production countries:";
+"movieDetailVC_release_date" = "Release date:";
+"movieDetailVC_revenue" = "Revenue:";
+"movieDetailVC_vote_average" = "Vote average:";
+"movieDetailVC_vote_count" = "Vote count:";
+
+//FavoriteVC
+"FavoriteVC_remove_from_favourites" = "Are you sure you want to delete the movie from your favorites?";
+"FavoriteVC_remove_from_favourites_yes" = "Confirm";
+
+
+//SearchVC
+"SearchVC_title" = "Search";
+"SearchVC_search_bar_placeholder" = "Find a movie";
+
